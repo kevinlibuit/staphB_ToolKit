@@ -3,7 +3,7 @@ A bioinformatics pipeline for QC of WGS data generated from infectious disease i
 
 
 ## Data workflow:
-![Tredegar pipeline](Tredegar_2.0.png)
+![Tredegar pipeline](./docs/Tredegar_2.0.png)
 
 ### Taxonomic Prediction:
 Tredegar uses [MASH](http://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-0997-x), a fast genome distance estimation algorithm, to determine the taxonomic identitity of all isolates; MASH is capable of accurate identification up to the species level. 
@@ -15,7 +15,7 @@ the CDC's CG Pipeline--Q-score averages for the forward and reverse reads are al
 
 
 ### Sample Output
-![Sample output](./tred2_sample_out.png)
+![Sample output](./docs/tred2_sample_out.png)
 
 - r1_q and r2_q: Average Q-score for the forward and reverse reads, respectively
 - est_genome_length: Shovill assembly length calculated by Quast
