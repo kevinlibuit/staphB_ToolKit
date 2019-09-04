@@ -1,5 +1,5 @@
 # Tredegar v2.1
-Bioinformatics pipeline infecious disease WGS data QC
+Bioinformatics pipeline for infectious disease WGS data QC
 
 ## Data workflow:
 ![Tredegar pipeline](./docs/Tredegar_2.1.png)
