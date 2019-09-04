@@ -58,14 +58,14 @@ serotypefinder_output/
 
 `````
 
-A `mash_species.csv` file will also be generated and written within the `mash_output` directory. This file consists of the species predictions made by MASH.
+A `mash_species.csv` file will also be generated and written within the `mash_output` directory. This file consists of the top species predictions made by MASH.
 
 
 The final Tredegar report will be written to a `reports` subdirectory within the `<output_dir>`. 
 
-### Releases
+### Version History
 
-<b>Current release: v2.1 September 04, 2019</b>
+<b>Current version: v2.1 September 04, 2019</b>
 
 Updates in v2.1
 1. Written into the StaPH-B ToolKit
