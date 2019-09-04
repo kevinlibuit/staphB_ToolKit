@@ -1,5 +1,5 @@
 # Tredegar v2.0
-A bioinformatics pipeline for QC of WGS data generated from infectious disease isolates. 
+Bioinformatics pipeline for the QC of WGS data generated from infectious disease isolates 
 
 
 ## Data workflow:
@@ -14,9 +14,9 @@ De novo assemblies are performed using Shovill and assembly metrics are collecte
 the CDC's CG Pipeline--Q-score averages for the forward and reverse reads are also gauged using the CG Pipeline.
 
 
-### Sample Output
+### Sample Tredeagr Report
 ![Sample output](./docs/tred2_sample_out.png)
-
+- sample: isolate ID 
 - r1_q and r2_q: Average Q-score for the forward and reverse reads, respectively
 - est_genome_length: Shovill assembly length calculated by Quast
 - est_cvg: Calculated genome coverage calculated by CG Pipeline
@@ -31,6 +31,6 @@ the CDC's CG Pipeline--Q-score averages for the forward and reverse reads are al
 $ tredegar.py -i <input_dir> -o <output_dir>
 ````
 
-`<input_dir>` can be either the path to an input directory containing paired-end fastq read data or path to a mounted BaseSpace project.
+`<input_dir>` can be the path to an input directory containing paired-end fastq read data or path to a mounted BaseSpace project.
 
 ````
