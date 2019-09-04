@@ -25,12 +25,12 @@ the CDC's CG Pipeline--Q-score averages for the forward and reverse reads are al
 
 ---
 
-### Basic usage: 
+### Usage: 
 
 ````
-$ tredegar.py -i <input> -o <output_dir>
+$ tredegar.py -i <input_dir> -o <output_dir>
 ````
 
-`<input>`:path to input directory containing paired-end fastq read data or path to a mounted BaseSpace project.
+`<input_dir>` can be either the path to an input directory containing paired-end fastq read data or path to a mounted BaseSpace project.
 
 ````
