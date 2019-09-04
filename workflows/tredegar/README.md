@@ -17,19 +17,15 @@ the CDC's CG Pipeline--Q-score averages for the forward and reverse reads are al
 ### Sample Output
 ![Sample output](./tred2_sample_out.png)
 
-<b>r1_q and r2_q</b>: Average Q-score for the forward and reverse reads, respectively
-
-<b>est_genome_length</b>: Shovill assembly length calculated by Quast
-
-<b>est_cvg</b>: Calculated genome coverage calculated by CG Pipeline
-
-<b>predicted_species/b>: Genus and species prediction by Mash
-
-<b>predicted_serotype</b>: Serotype predictions by SeqSero and SerotypeFinder for *Salmonella enterica* and *Escherichia coli* isolates, respectively
+- r1_q and r2_q: Average Q-score for the forward and reverse reads, respectively
+- est_genome_length: Shovill assembly length calculated by Quast
+- est_cvg: Calculated genome coverage calculated by CG Pipeline
+- predicted_species: Genus and species prediction by Mash
+- predicted_serotype: Serotype predictions by SeqSero and SerotypeFinder for *Salmonella enterica* and *Escherichia coli* isolates, respectively
 
 ---
 
-##Basic usage: 
+### Basic usage: 
 
 ````
 $ tredegar.py -i <input> -o <output_dir>
